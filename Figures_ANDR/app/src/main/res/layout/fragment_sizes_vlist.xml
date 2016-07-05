@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:gravity="center"
+    android:weightSum="1"
+    >
+    <!--android:background="@drawable/selector_list"-->
+
+
+
+    <!--<ImageView android:id="@+id/img"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="5px"/>-->
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        >
+        <TextView android:id="@+id/sizeId"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorListViewText"
+            android:textSize="20dp"
+
+            android:gravity="center"
+            />
+
+        <TextView android:id="@+id/sizeName"
+        android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorListViewText"
+            android:textSize="20dp"
+            android:layout_gravity="right"
+            android:gravity="left"
+             />
+
+        <TextView android:id="@+id/sizeValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorListViewText"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
