@@ -22,7 +22,7 @@ class LinkScene: SCNScene {
         let url = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("body", ofType: "obj")!)
         
         let url2 = NSURL(string: "http://chriscoder.me/images/body.obj")
-        let asset = MDLAsset(URL: url2!)
+        let asset = MDLAsset(URL: url)
         let object = asset.objectAtIndex(0)
         let node = SCNNode(MDLObject: object)
         
