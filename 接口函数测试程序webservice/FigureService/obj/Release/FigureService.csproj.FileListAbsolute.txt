@@ -1,5 +1,0 @@
-C:\快盘\Projects\Figures\FigureService\FigureService\bin\FigureService.dll
-C:\快盘\Projects\Figures\FigureService\FigureService\bin\FigureService.pdb
-C:\快盘\Projects\Figures\FigureService\FigureService\obj\Release\ResolveAssemblyReference.cache
-C:\快盘\Projects\Figures\FigureService\FigureService\obj\Release\FigureService.dll
-C:\快盘\Projects\Figures\FigureService\FigureService\obj\Release\FigureService.pdb
