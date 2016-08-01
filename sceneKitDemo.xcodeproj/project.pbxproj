@@ -17,6 +17,8 @@
 		0104FF4F1D2B8AE10002B767 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0104FF4E1D2B8AE10002B767 /* SceneKit.framework */; };
 		0104FF511D2B8B540002B767 /* LinkScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0104FF501D2B8B540002B767 /* LinkScene.swift */; };
 		0104FF531D2B98840002B767 /* body.obj in Resources */ = {isa = PBXBuildFile; fileRef = 0104FF521D2B98840002B767 /* body.obj */; };
+		0145B8721D49B8E700E248DB /* 57997d59ab0b5.obj in Resources */ = {isa = PBXBuildFile; fileRef = 0145B8711D49B8E700E248DB /* 57997d59ab0b5.obj */; };
+		0165E3631D40B2DC00D34B52 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 0165E3621D40B2DC00D34B52 /* Foundation+Log.m */; };
 		01B3633C1D2BAFFC0090D929 /* front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01B3633A1D2BAFFC0090D929 /* front.jpg */; };
 		01B3633D1D2BAFFC0090D929 /* side.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01B3633B1D2BAFFC0090D929 /* side.jpg */; };
 		01ED44E11D2DE992001FFB16 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ED44E01D2DE992001FFB16 /* Utils.m */; };
@@ -59,6 +61,8 @@
 		0104FF4E1D2B8AE10002B767 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 		0104FF501D2B8B540002B767 /* LinkScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkScene.swift; sourceTree = "<group>"; };
 		0104FF521D2B98840002B767 /* body.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = body.obj; path = ../../../../Downloads/body.obj; sourceTree = "<group>"; };
+		0145B8711D49B8E700E248DB /* 57997d59ab0b5.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 57997d59ab0b5.obj; sourceTree = "<group>"; };
+		0165E3621D40B2DC00D34B52 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		01B3633A1D2BAFFC0090D929 /* front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = front.jpg; sourceTree = "<group>"; };
 		01B3633B1D2BAFFC0090D929 /* side.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = side.jpg; sourceTree = "<group>"; };
 		01ED44DE1D2DE991001FFB16 /* sceneKitDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sceneKitDemo-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 		0104FF1F1D2B8A900002B767 /* sceneKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0145B8711D49B8E700E248DB /* 57997d59ab0b5.obj */,
+				0165E3621D40B2DC00D34B52 /* Foundation+Log.m */,
 				01ED44DF1D2DE992001FFB16 /* Utils.h */,
 				01ED44E01D2DE992001FFB16 /* Utils.m */,
 				01B3633A1D2BAFFC0090D929 /* front.jpg */,
@@ -264,6 +270,8 @@
 				TargetAttributes = {
 					0104FF1C1D2B8A900002B767 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Y7254JY3WY;
+						DevelopmentTeamName = "失笑。 安然 (Personal Team)";
 					};
 					0104FF301D2B8A910002B767 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -303,6 +311,7 @@
 				0104FF2B1D2B8A910002B767 /* LaunchScreen.storyboard in Resources */,
 				0104FF281D2B8A910002B767 /* Assets.xcassets in Resources */,
 				0104FF261D2B8A900002B767 /* Main.storyboard in Resources */,
+				0145B8721D49B8E700E248DB /* 57997d59ab0b5.obj in Resources */,
 				01B3633C1D2BAFFC0090D929 /* front.jpg in Resources */,
 				01B3633D1D2BAFFC0090D929 /* side.jpg in Resources */,
 				0104FF531D2B98840002B767 /* body.obj in Resources */,
@@ -454,6 +463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0104FF231D2B8A900002B767 /* ViewController.swift in Sources */,
+				0165E3631D40B2DC00D34B52 /* Foundation+Log.m in Sources */,
 				0104FF511D2B8B540002B767 /* LinkScene.swift in Sources */,
 				0104FF211D2B8A900002B767 /* AppDelegate.swift in Sources */,
 				01ED44E11D2DE992001FFB16 /* Utils.m in Sources */,

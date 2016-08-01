@@ -15,18 +15,22 @@ class LinkScene: SCNScene {
         
         let tubeGeometry = SCNTube(innerRadius: 0.9, outerRadius: 1.0, height: 2.5)
         let tubeNode = SCNNode(geometry: tubeGeometry)
-        tubeNode.position = SCNVector3(x: 0.0, y: 0.0, z: 0.0)
+        tubeNode.position = SCNVector3(x: 0.0, y: 0.0, z: 10.0)
         tubeNode.name = "LC-Blue"
         tubeGeometry.firstMaterial?.diffuse.contents = UIColor.blueColor()
         
-        let url = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("body", ofType: "obj")!)
+        let url = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("57997d59ab0b5", ofType: "obj")!)
         
-        let url2 = NSURL(string: "http://chriscoder.me/images/body.obj")
+//        let url = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("body", ofType: "obj")!)
+        
+        
+//        let url2 = NSURL(string: "http://chriscoder.me/images/body.obj")
         let asset = MDLAsset(URL: url)
         let object = asset.objectAtIndex(0)
         let node = SCNNode(MDLObject: object)
         
         self.rootNode.addChildNode(node)
+        
         
         
         let spot = SCNLight()
